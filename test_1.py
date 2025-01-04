@@ -44,22 +44,16 @@ class TestPositive:
 
     def test_step4(self, browser):
         logging.info("Test4 Starting")
-
         testpage = OperationsHelper(browser)
         testpage.click_contact_link()
         time.sleep(20)
         assert testpage.get_contact_title_text() == "Contact us!"
-
         testpage.enter_contact_name_field(name)
         assert testpage.get_contact_name_text() == name
-
         testpage.enter_contact_email_field(email)
         assert testpage.get_contact_email_text() == email
-
         testpage.enter_contact_content_field("Content for contact")
         assert testpage.get_contact_content_text() == "Content for contact"
-
         testpage.click_contact_btn()
         time.sleep(7)
-
         assert "Form successfully submitted" in testpage.switch_to_alert_contact()
