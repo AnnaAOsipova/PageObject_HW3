@@ -1,0 +1,32 @@
+2025-01-05 01:30:55 INFO ====== WebDriver manager ======
+2025-01-05 01:30:55 INFO Get LATEST chromedriver version for google-chrome
+2025-01-05 01:30:56 INFO Get LATEST chromedriver version for google-chrome
+2025-01-05 01:30:56 INFO Driver [/Users/annaosipova/.wdm/drivers/chromedriver/mac64/131.0.6778.204/chromedriver-mac-arm64/chromedriver] found in cache
+2025-01-05 01:30:57 INFO Test1 Starting
+2025-01-05 01:31:07 INFO Send test to element //*[@id="login"]/div[1]/label/input
+2025-01-05 01:31:07 INFO Send test to element //*[@id="login"]/div[2]/label/input
+2025-01-05 01:31:07 INFO Click login button
+2025-01-05 01:31:12 INFO We find text '401' in error field //*[@id="app"]/main/div/div/div[2]/h2
+2025-01-05 01:31:12 INFO Test2 Starting
+2025-01-05 01:31:12 INFO Send Nyusha to element //*[@id="login"]/div[1]/label/input
+2025-01-05 01:31:12 INFO Send 15f4e1b8e6 to element //*[@id="login"]/div[2]/label/input
+2025-01-05 01:31:12 INFO Click login button
+2025-01-05 01:31:23 INFO We find text 'Hello, Nyusha' in field //*[@id="app"]/main/nav/ul/li[3]/a
+2025-01-05 01:31:23 INFO Test3 Starting
+2025-01-05 01:31:23 INFO Click new post button
+2025-01-05 01:31:23 INFO Send testtitle to title field //*[@id="create-item"]/div/div/div[1]/div/label/input
+2025-01-05 01:31:23 INFO Send testcontent to content field //*[@id="create-item"]/div/div/div[3]/div/label/span/textarea
+2025-01-05 01:31:23 INFO Send testdesc to description field //*[@id="create-item"]/div/div/div[2]/div/label/span/textarea
+2025-01-05 01:31:23 INFO Click save button
+2025-01-05 01:31:43 INFO We find text 'testtitle' in title //*[@id="app"]/main/div/div[1]/h1
+2025-01-05 01:31:43 INFO Test4 Starting
+2025-01-05 01:31:43 INFO Click Contact link
+2025-01-05 01:32:03 INFO We find text 'Contact us!' in title //*[@id="app"]/main/div/div/h1
+2025-01-05 01:32:03 INFO Send Nyusha to contact title field //*[@id="contact"]/div[1]/label/input
+2025-01-05 01:32:04 INFO We find text 'Nyusha' in contact name field //*[@id="contact"]/div[1]/label/input
+2025-01-05 01:32:04 INFO Send Nyusha@test.com to contact email field //*[@id="contact"]/div[2]/label/input
+2025-01-05 01:32:04 INFO We find text 'Nyusha@test.com' in contact email field //*[@id="contact"]/div[2]/label/input
+2025-01-05 01:32:04 INFO Send Content for contact to contact content field //*[@id="contact"]/div[3]/label/span/textarea
+2025-01-05 01:32:04 INFO We find text 'Content for contact' in contact content field //*[@id="contact"]/div[3]/label/span/textarea
+2025-01-05 01:32:04 INFO Click 'contact us' button
+2025-01-05 01:32:11 INFO We find text Form successfully submitted in alert
